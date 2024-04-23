@@ -3,7 +3,7 @@ class HelloWorldDani < Formula
   homepage "https://github.com/danibarker/tap-tap-dani-barker"
   url "file:///Users/daniellebarker/programming/personal/homebrew/tap-tap-dani-barker/hello_world_dani.sh"
   version "0.1"
-  sha256 "567a05e2fd12d0465cad0d16e8ff92db76836ff37755b87d2ba9e4e049ca09a7"
+  sha256 "133f05b63a017f8fe4ecd9cc4d1af69a8511e078eada11e83b10afb24cd54380"
   def install
     bin.install "hello_world_dani.sh" => "hello_world_dani"
   end
