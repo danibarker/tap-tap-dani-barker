@@ -7,7 +7,7 @@ class HelloWorldDani < Formula
   def install
     bin.install "hello_world_dani.sh" => "hello_world_dani"
   end
-
+  echo "Hello, World..."
   test do
     assert_equal "Hello, World...", shell_output("\#{bin}/hello_world_dani").strip
   end
