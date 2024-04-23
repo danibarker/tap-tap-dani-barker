@@ -1,4 +1,4 @@
-class SHAFTED < Formula
+class HelloWorldDani < Formula
   desc "A simple 'Hello, World...' script"
   homepage "https://github.com/danibarker/tap-tap-dani-barker"
   url "file:///Users/daniellebarker/programming/personal/homebrew/tap-tap-dani-barker/hello_world_dani.sh"
