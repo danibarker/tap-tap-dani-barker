@@ -9,6 +9,6 @@ class HelloWorldDani < Formula
   end
 
   test do
-    assert_equal "Hello, World", shell_output("\#{bin}/hello_world_dani").strip
+    assert_equal "Hello, World...", shell_output("\#{bin}/hello_world_dani").strip
   end
 end
