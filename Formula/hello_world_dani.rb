@@ -3,9 +3,9 @@ class HelloWorldDani < Formula
   version "1.0.0"
   sha256 "3c89be10a65a483d5418d2b8ca58bf2fe09ef22ae6f9db5df0e4b4f40a5b898f"
   def install
-    
-    
-    "Hello, Bitch!"
+    exec('export', 'HOMEBREW_NO_INSTALL_CLEANUP=1')
+    exec('export', 'HOMEBREW_NO_ENV_HINTS=1')
+    exec('echo', '\"Hello, Bitch!\"')
 
     for a in 1..50 do
       puts "Hello, Sexy..."
