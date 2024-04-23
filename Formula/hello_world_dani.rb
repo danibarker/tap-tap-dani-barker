@@ -1,5 +1,5 @@
 class hello_world_dani < Formula
-  desc "A simple 'Hello, World!' script"
+  desc "A simple 'Hello, World' script"
   homepage "https://github.com/danibarker/tap-tap-dani-barker"
   url "file:///Users/daniellebarker/programming/personal/homebrew/tap-tap-dani-barker/hello_world_dani.sh"
 
