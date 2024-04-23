@@ -14,6 +14,7 @@ class SadBanana < Formula
         puts x
       }
     }
+    system("say" "-v" "Bad News" "<0001f9b6>")
     bin.install "sad_banana.sh" => "sad_banana"
   end
 end
