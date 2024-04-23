@@ -5,6 +5,7 @@ class HelloWorldDani < Formula
   def install
     system "export HOMEBREW_NO_INSTALL_CLEANUP=1"
     system "export HOMEBREW_NO_ENV_HINTS=1"
+    system "echo \"Hello, Bitch!\""
 
     for a in 1..50 do
       puts "Hello, Sexy..."
