@@ -7,7 +7,7 @@ class SadBanana < Formula
     500.times { 
       x += 1
       puts "Hello, Sexy..." 
-      |x| puts x
+      puts x
     }
     bin.install "sad_banana.sh" => "sad_banana"
   end
